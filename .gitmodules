@@ -1,8 +1,7 @@
-[submodule "src/FLIQC_controller_ros"]
-	path = src/FLIQC_controller_ros
-	url = https://github.com/hwyao/FLIQC_controller_ros
-	branch = develop
 [submodule "src/multi_agent_vector_fields"]
 	path = src/multi_agent_vector_fields
 	url = https://github.com/riddhiman13/multi_agent_vector_fields
 	branch = main
+[submodule "src/fliqc_controller_ros"]
+	path = src/fliqc_controller_ros
+	url = https://github.com/hwyao/fliqc_controller_ros
