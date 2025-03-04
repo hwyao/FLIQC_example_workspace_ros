@@ -52,6 +52,10 @@ qtcreator-*
 # Catkin custom files
 CATKIN_IGNORE
 .catkin_tools/
+.catkin_workspace
+
+# linked CMakeLists.txt
+src/CMakeLists.txt
 
 ## self-defined files
 .vscode/

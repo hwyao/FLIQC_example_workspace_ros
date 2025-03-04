@@ -5,3 +5,8 @@
 [submodule "src/fliqc_controller_ros"]
 	path = src/fliqc_controller_ros
 	url = https://github.com/hwyao/fliqc_controller_ros
+	branch = develop
+[submodule "src/robot_env_publisher"]
+	path = src/robot_env_publisher
+	url = https://github.com/hwyao/robot_env_publisher
+	branch = develop
