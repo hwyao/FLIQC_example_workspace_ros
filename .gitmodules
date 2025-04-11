@@ -13,3 +13,7 @@
 [submodule "src/franka_ros"]
 	path = src/franka_ros
 	url = https://github.com/frankaemika/franka_ros
+[submodule "src/debug_and_profile_helper"]
+	path = src/debug_and_profile_helper
+	url = https://github.com/hwyao/debug_and_profile_helper.git
+	branch = develop
