@@ -11,10 +11,17 @@
                 "/usr/include/eigen3/**",
                 "${workspaceFolder}/src/fliqc_controller_ros/include/**",
                 "${workspaceFolder}/src/fliqc_controller_ros/submodule/FLIQC_controller_core/include/**",
+                "${workspaceFolder}/src/fliqc_controller_ros/submodule/FLIQC_controller_core/external/LCQPow/include",
+                "${workspaceFolder}/build/fliqc_controller_ros/submodule/FLIQC_controller_core/external/build/LCQPow/external/src/osqp/include",
                 "${workspaceFolder}/src/fliqc_controller_ros/submodule/robot_env_evaluator/include/**",
                 "${workspaceFolder}/build/fliqc_controller_ros/submodule/robot_env_evaluator/include/**",
                 "${workspaceFolder}/src/multi_agent_vector_fields/include/**",
-                "${workspaceFolder}/src/robot_env_publisher/include"
+                "${workspaceFolder}/src/robot_env_publisher/include/**",
+                "${workspaceFolder}/src/debug_and_profile_helper/include/**",
+                "${workspaceFolder}/build/debug_and_profile_helper/include/**",
+                "${workspaceFolder}/src/debug_and_profile_helper/include",
+                "${workspaceFolder}/build/debug_and_profile_helper/include",
+                "/opt/ros/noetic/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
@@ -22,7 +29,8 @@
             "cStandard": "gnu11",
             "cppStandard": "c++17",
             "defines": [
-                "PINOCCHIO_WITH_HPP_FCL"
+                "PINOCCHIO_WITH_HPP_FCL",
+                "DBGNPROF_COMPILE_IN_ROS"
             ]
         }
     ],
