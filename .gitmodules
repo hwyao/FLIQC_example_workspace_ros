@@ -5,15 +5,15 @@
 [submodule "src/fliqc_controller_ros"]
 	path = src/fliqc_controller_ros
 	url = https://github.com/hwyao/fliqc_controller_ros
-	branch = develop
+	branch = main
 [submodule "src/robot_env_publisher"]
 	path = src/robot_env_publisher
 	url = https://github.com/hwyao/robot_env_publisher
-	branch = develop
+	branch = main
 [submodule "src/franka_ros"]
 	path = src/franka_ros
 	url = https://github.com/frankaemika/franka_ros
 [submodule "src/debug_and_profile_helper"]
 	path = src/debug_and_profile_helper
 	url = https://github.com/hwyao/debug_and_profile_helper.git
-	branch = develop
+	branch = main
